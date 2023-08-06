@@ -9,6 +9,7 @@ class DataValidation:
         self.config = config
 
     def validate_all_columns(self) -> bool:
+        print("Validation columns")
         try:
             validation_status = None
 
