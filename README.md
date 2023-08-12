@@ -1,6 +1,6 @@
 # Wine Quality Prediction
 
-End to End implementation of wine prediction web app.
+End to End implementation of wine prediction web app. Based on the inputs given by the user for the different parameters, the wine quality will be predicted.
 
 ## CONTENTS
 1) [Dataset Information](#DATASET-INFORMATION)
