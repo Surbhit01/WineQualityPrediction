@@ -58,7 +58,8 @@ def prediction():
 
         except Exception as e:
             print("Exception in app.py: ", e)
-            return "Encountered an error. Please check logs"
+            error = "Error: " + e
+            return str(error)
 
     else:
         return render_template("index.html")
