@@ -3,11 +3,10 @@
 End to End implementation of wine prediction web app.
 
 ## CONTENTS
-1) [Dataset Information](#DATASET INFORMATION)
-2) [Data Exploration](#DATA EXPLORATION)
+1) [Dataset Information](#DATASET-INFORMATION)
+2) [Data Exploration](#DATA-EXPLORATION)
 3) [Implementation](#IMPLEMENTATION)
-4) [How To Run](#HOW TO RUN)
-5) [How to run](#HOW TO RUN)
+4) [How To Run](#HOW-TO-RUN)
 
 ## DATASET INFORMATION
 Dataset source - https://archive.ics.uci.edu/dataset/186/wine+quality <br>
