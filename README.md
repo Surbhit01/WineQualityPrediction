@@ -2,7 +2,7 @@
 
 End to End implementation of wine prediction web app.
 
-Dataset source - https://archive.ics.uci.edu/dataset/186/wine+quality
+Dataset source - https://archive.ics.uci.edu/dataset/186/wine+quality <br>
 This data set contains records related to red variant of the Portuguese Vinho Verde wine. It contains information from 1599 red wine samples. 
 
 ### **Input variables**
@@ -89,7 +89,7 @@ This data set contains records related to red variant of the Portuguese Vinho Ve
 ## IMPLEMENTATION
 
 The following steps are involved in this end-to-end implementation:
-* **Data Ingestion** - Downloading the zipped data from [here] (https://github.com/Surbhit01/Datasets/raw/main/winequality-data.zip). The data is then unzipped and stored at a particular location
+* **Data Ingestion** - Downloading the zipped data from [here](https://github.com/Surbhit01/Datasets/raw/main/winequality-data.zip). The data is then unzipped and stored at a particular location
 
 * **Data Validation** - The downloaded data is then validated using a predefined schema. The validation success result (true/false) is stored in a text file
   
@@ -100,3 +100,13 @@ The following steps are involved in this end-to-end implementation:
 *  **Model Evaluation** - The test set is then evaluated on the model
 
 *  **Model Deployment** -  The web app has been deployed locally as a flask service and on AWS E2 instance with Github actions. The */train* route will automatically execute data ingestion, data transformation, model trainer and model evaluation stages. The default */* route will give the user the page to enter the input values.
+
+**Sample Images**
+
+Homepage
+![HomePage](https://github.com/Surbhit01/WineQualityPrediction/assets/24591039/d7a48eac-f47a-4406-acfe-725b5a146bf0)
+
+Result
+
+
+
