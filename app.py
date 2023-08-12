@@ -58,7 +58,7 @@ def prediction():
 
         except Exception as e:
             print("Exception in app.py: ", e)
-            error = "Error: " + e
+            error = " Error: " + e
             return str(error)
 
     else:
