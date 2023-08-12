@@ -144,7 +144,9 @@ Step 4: Run the app
 python app.py
 ```
 
-The web app will be available on port 8080. */train* route will be for training the model. To make a prediction, go to the default route */*
+The web app will be available on port 8080.<br> 
+*/train* route will be for training the model.<br> 
+To make a prediction, go to the default route */*<br>
 
 
 
