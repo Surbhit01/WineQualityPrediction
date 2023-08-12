@@ -54,7 +54,7 @@ def prediction():
             print("Predicting values..")
             predict = predictionPipeline.predict(data)
             print(predict)
-            return render_template("results.html", prediction=str(round(predict[0], 2)))
+            return render_template("results.html", prediction=str(round(predict[0])))
 
         except Exception as e:
             print("Exception in app.py: ", e)
