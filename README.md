@@ -2,6 +2,13 @@
 
 End to End implementation of wine prediction web app.
 
+## CONTENTS
+1) Dataset Information[#DATASET INFORMATION]
+2) Data Exploration[#DATA EXPLORATION]
+3) Implementation [#IMPLEMENTATION]
+4) How to run[#HOW TO RUN]
+
+## DATASET INFORMATION
 Dataset source - https://archive.ics.uci.edu/dataset/186/wine+quality <br>
 This data set contains records related to red variant of the Portuguese Vinho Verde wine. It contains information from 1599 red wine samples. 
 
@@ -104,9 +111,40 @@ The following steps are involved in this end-to-end implementation:
 **Sample Images**
 
 Homepage
+
 ![HomePage](https://github.com/Surbhit01/WineQualityPrediction/assets/24591039/d7a48eac-f47a-4406-acfe-725b5a146bf0)
 
+
 Result
+
+![Result](https://github.com/Surbhit01/WineQualityPrediction/assets/24591039/c0c3748b-baf3-4324-987b-113895048933)
+
+## HOW TO RUN
+
+Step 1: Clone the repository
+```
+git clone https://github.com/Surbhit01/WineQualityPrediction.git
+```
+
+Step 2: Open the cloned repository and create a conda environment. Activate the new environment
+```
+conda create -n wineprediction python=3.9
+```
+```
+conda activate wineprediction
+```
+
+Step 3: Install the requirements file
+```
+pip install -r requirements.txt
+```
+
+Step 4: Run the app
+```
+python app.py
+```
+
+The web app will be available on port 8080. */train* route will be for training the model. To make a prediction, go to the default route */*
 
 
 
